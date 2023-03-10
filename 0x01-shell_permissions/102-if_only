@@ -1,2 +1,2 @@
-#!/bin/sh
-ls -1 | wc -l
+#!/bin/bash
+sudo chown betty hello
