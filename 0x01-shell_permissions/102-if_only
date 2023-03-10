@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown betty hello
+if [ $(id -u) = 1000 ]; then chown betty hello; fo
